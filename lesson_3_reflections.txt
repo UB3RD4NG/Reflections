@@ -41,4 +41,8 @@ Migrating or "pushing" forward code across dev, new features, production, etc. d
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+It's always a good idea to make changes in a branch first and then merge into master.
+Production fixes should be worked on in a testing branch.
+New features should be worked on in feature branches.
+Other stuff like rearchitecting, A/B testing, project sprints, etc. as well.
+While it's more work to manage, this allows master to be fully functional and less at risk of encountering a bug.
