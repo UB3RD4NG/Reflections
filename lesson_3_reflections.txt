@@ -33,7 +33,10 @@ Merging and pushing back to the remote repo is easier to execute with both local
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+Would have to use a homegrown tracking system.  Control would probably be broken up into larger chunks be less flexible.
+Collaboration, diffing, and merging would be harder to execute.
+Branching would probably be difficult to control as well, and different code bases or environments might need to be set up for that.
+Migrating or "pushing" forward code across dev, new features, production, etc. deployments would be a challenge
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
